@@ -14,7 +14,7 @@ const TablePage = () => {
     useEffect( () => {
 
         setTimeout(async() => {
-            const { data } = await axios.get("http://localhost:6700/allUsers")
+            const { data } = await axios.get("http://localhost:5000/allUsers")
             //    console.log(data);
         
                setUsers(data)
